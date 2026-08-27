@@ -94,12 +94,9 @@ def criar_conta():
         salvar_usuarios()
         mostrar_mensagem("Conta criada! Agora clique em Entrar.", COR_SUCESSO)
         limpar_campos()
-
-
-# -----------------------------------------------------------------------------
-# JANELA PRINCIPAL
+        
+# Janela principal
 # O mainloop(), no final do código, mantém o aplicativo aberto.
-# -----------------------------------------------------------------------------
 
 janela = tk.Tk()
 janela.title("UNIMAPP")

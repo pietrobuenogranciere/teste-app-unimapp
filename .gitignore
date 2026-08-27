@@ -1,0 +1,6 @@
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+
+# Dados criados enquanto o aplicativo está sendo testado
+usuarios.json
